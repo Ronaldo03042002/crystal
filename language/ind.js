@@ -1,49 +1,49 @@
 exports.wait = () => {
-	return`*「 WAIT 」 SEDANG PROSES*`
+	return`*「 ESPERE 」PROCESSANDO*`
 }
 
 exports.succes = () => {
-	return`*「 SUCCES 」*`
+	return`*「 SUCCESO 」*`
 }
 
 exports.lvlon = () => {
-	return`*「 ENABLE 」 LEVELING*`
+	return`*「 ATIVAR 」NIVELAMENTO*`
 }
 
 exports.lvloff = () => {
-	return`*「 DISABLE 」 LEVELING*`
+	return`*「 DESATIVAR 」NIVELAMENTO*`
 }
 
 exports.lvlnul = () => {
-	return`*LEVELMU MASIH KOSONG*`
+	return`*SEU NÍVEL AINDA ESTÁ VAZIO*`
 }
 
 exports.lvlnoon = () => {
-	return`*LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*O LEVEL NÃO FOI ATIVADO * `
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar affis|17*`
+	return`*「 AINDA NÃO REGISTRADO 」*\n\n* como se registrar ${prefix}daftar Nome|Idade* \n*exemplo ${prefix}daftar Ronaldo|19*`
 }
 
 exports.rediregis = () => {
-	return`*「 SUDAH DAFTAR 」*\n\n*kamu sudah terdaftar di database bot*`
+	return`*「 JÁ REGISTRADO 」*\n\n* Você já está registrado no banco de dados do bot *`
 }
 
 exports.stikga = () => {
-	return`*yah gagal coba ulangi beberapa saat lagi*`
+	return`*Falhou, tente repetir em alguns minutos* `
 }
 
 exports.linkga = () => {
-	return`*maaf link tidak valid*`
+	return`*Desculpe link inválido*`
 }
 
 exports.groupo = () => {
-	return`*「GROUP ONLY」*`
+	return`*「 SÓ EM GRUPO 」*`
 }
 
 exports.ownerb = () => {
-	return`*「OWNER BOT ONLY」*`
+	return`*「SOMENTE O DONO DO BOT PODE USAR ESSE COMANDO」*`
 }
 
 exports.ownerg = () => {
