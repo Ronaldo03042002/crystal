@@ -1,9 +1,9 @@
 exports.wait = () => {
-	return`*「 WAIT 」 SEDANG PROSES*`
+	return`*「 ESPERE 」PROCESSANDO*`
 }
 
 exports.succes = () => {
-	return`*「 SUCCES 」*`
+	return`*「 SUCCESO 」*`
 }
 
 exports.lvlon = () => {
@@ -27,63 +27,63 @@ exports.noregis = () => {
 }
 
 exports.rediregis = () => {
-	return`*「 SUDAH DAFTAR 」*\n\n*kamu sudah terdaftar di database bot*`
+	return`*「 JÁ REGISTRADO 」*\n\n*você já está registrado no banco de dados do bot*`
 }
 
 exports.stikga = () => {
-	return`*yah gagal coba ulangi beberapa saat lagi*`
+	return`*Flhou,tente repetir em alguns minutos*`
 }
 
 exports.linkga = () => {
-	return`*maaf link tidak valid*`
+	return`*Desculpe, link inválido*`
 }
 
 exports.groupo = () => {
-	return`*「GROUP ONLY」*`
+	return`*「SÓ EM GRUPO」*`
 }
 
 exports.ownerb = () => {
-	return`*「OWNER BOT ONLY」*`
+	return`*「SOMENTE O DONO DO BOT PODE USAR」*`
 }
 
 exports.ownerg = () => {
-	return`*「OWNER GROUP ONLY」*`
+	return`*「SOMENTE ADMINISTRADORES PODE USAR ESSE COMANDO」*`
 }
 
 exports.admin = () => {
-	return`*「ADMIN GROUP ONLY」*`
+	return`*「SOMENTE ADMINISTRADOR PODE USAR ESSE COMANDO」*`
 }
 
 exports.badmin = () => {
-	return`*「BOT HARUS JADI ADMIN」*`
+	return`*「O BOT DEVE SER ADMINISTRADOR」*`
 }
 
 exports.nsfwoff = () => {
-	return`*NSFW GAK AKTIF*`
+	return`*NSFW EM ATIVO*`
 }
 
 exports.bug = () => {
-	return`*Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi*`
+	return`*Problemas foram relatados ao proprietário do BOT, relatórios falsos não serão respondidos *`
 }
 
 exports.wrongf = () => {
-	return`*format salah/text kosong*`
+	return`*Formato incorreto / texto em branco*`
 }
 
 exports.clears = () => {
-	return`*clear all Success*`
+	return`*Limpo com successo*`
 }
 
 exports.pc = () => {
-	return`*「 REGISTRASI 」*\n\nuntuk mengetahui apa kamu sudah terdaftar silahkah check message yang saya kirim \n\nNOTE:\n*jika kamu belum mendapatkan pesan. berarti kamu belum menyimpan nomer bot*`
+	return`*「 CADASTRO 」*\n\npara saber se você se registrou, verifique a mensagem que eu enviei\n\nNOTA:\n* se você não recebeu uma mensagem. significa que você não salvou o número do bot * `
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
+	return`*「 DADOS DE PAÍS 」*\n\nvocê se registrou com os dados \n\n┏━⊱Nome\n┗⊱${namaUser}\n┏━⊱Numero\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱Idade\n┗⊱${umurUser}\n┏━⊱Hora de registro\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTA : NEM SEMPRE VAI ESTAR ON:v`
 }
 
 exports.cmdnf = (prefix, command) => {
-	return`command *${prefix}${command}* tidak di temukan\coba tulis *${prefix}menu*`
+	return`Comando *${prefix}${command}* não encontrado\tente escrever *${prefix}menu*`
 }
 
 exports.owneresce = (pushname) => {
