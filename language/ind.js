@@ -3,7 +3,7 @@ exports.wait = () => {
 }
 
 exports.succes = () => {
-	return`*「 SUCCESO 」*`
+	return`*「 SUCESSO 」*`
 }
 
 exports.lvlon = () => {
