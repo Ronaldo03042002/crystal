@@ -19,7 +19,7 @@ exports.lvlnul = () => {
 }
 
 exports.lvlnoon = () => {
-	return`*O NÍVEL DO GRUPO NÃO FOI ATIVADO*`
+	return`*O NÍVEL AINDA NÃO FOI ATIVADO*`
 }
 
 exports.noregis = () => {
