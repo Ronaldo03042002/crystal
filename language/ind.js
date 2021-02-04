@@ -138,7 +138,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ┣━━⊱ *Música e vídeo* ⊰━━━┫
 ┣⊱ *${prefix}ytmp3* <Link>
 ┣⊱ *${prefix}ytmp4* <Link>
-┣⊱ *${prefix}play* <judul>
+┣⊱ *${prefix}play* <Autor e música>
 ┣━━⊱  *NSFW MENU*  ⊰━┫
 ┣⊱ *${prefix}anjing*
 ┣⊱ *${prefix}blowjob*
@@ -219,5 +219,5 @@ exports.satukos = () => {
 }
 
 exports.uangkau = (pushname, sender, uangkau) => {
-	return`*┏⊱ 「 ATM 」⊰━┓*\n┣⊱ *Nome* : ${pushname}\n┣⊱ *Número* : ${sender.split("@")[0]}\n┣⊱ *Dinheiro* : ${uangkau}\n┗━━━━━━━━━━`
+	return`*┏⊱ 「 SOBRE USUÁRIO 」⊰━┓*\n┣⊱ *Nome* : ${pushname}\n┣⊱ *Número* : ${sender.split("@")[0]}\n┣⊱ *Dinheiro* : ${uangkau}\n┗━━━━━━━━━━`
 }
